@@ -1,0 +1,117 @@
+.main {
+  margin-top: 50px;
+  padding-bottom: 100px;
+  overflow: auto;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title strong {
+  text-decoration: none;
+}
+
+.title {
+  margin: 0;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 4rem;
+  color: var(--yellow);
+  font-family: Hermit;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.info {
+  margin-top: 50px;
+}
+.about {
+  line-height: 1.5;
+  font-size: 1.5rem;
+  border: 2px solid var(--purple);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.about strong {
+  color: var(--orange);
+}
+
+.form {
+  width: 600px;
+  padding: 20px;
+  border: 2px solid var(--purple);
+  border-radius: 5px;
+}
+
+.form h2{
+  color: var(--yWhite);
+}
+
+.fields {
+  width: 100%;
+  font-family: Hermit;
+  border: none;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.input {
+  display: block;
+  background-color: var(--background);
+  padding: 5px;
+  border: 1px solid var(--green);
+  border-radius: 7.5px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: var(--green);
+  font-family: Hack;
+}
+
+.input:focus {
+  border-color: var(--yellow);
+  outline: none;
+}
+
+.button {
+  display: block;
+  margin: 0 auto;
+  padding: 7.5px;
+  border: solid var(--yellow);
+  border-radius: 10px;
+  background-color: transparent;
+  font-family: Hermit;
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--yellow);
+  transition: 0.5s;
+}
+.button:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  color: var(--background);
+  background-color: var(--yellow);
+}
+
+.button:active {
+  background-color: var(--pWhite);
+}
+
+.logo {
+  height: 1em;
+}
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
