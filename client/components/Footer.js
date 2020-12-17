@@ -1,16 +1,20 @@
-import  styles from "../styles/Footer.module.css";
+import styles from "../styles/Footer.module.css";
 
 function Footer() {
   return (
     <footer className={styles.footer}>
-      <a
-        href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Powered by{" "}
-        <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
-      </a>
+      <ul>
+        <li>
+          <a href="https://www.twitter.com/TropicsHimself" target="_blank">
+            Twitter <i class="ri-twitter-fill"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/TropicsTheDev" target="_blank">
+            Github <i class="ri-github-fill"></i>
+          </a>
+        </li>
+      </ul>
     </footer>
   );
 }

@@ -16,7 +16,7 @@
   margin: 0;
   text-align: center;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
   color: var(--yellow);
   font-family: Hermit;
 }
@@ -34,7 +34,7 @@
   font-size: 1.5rem;
   border: 2px solid var(--purple);
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .about strong {
@@ -50,6 +50,7 @@
 
 .form h2{
   color: var(--yWhite);
+  font-size: 2rem;
 }
 
 .fields {
@@ -84,8 +85,8 @@
 .button {
   display: block;
   margin: 0 auto;
-  padding: 7.5px;
-  border: solid var(--yellow);
+  padding: 1.5rem;
+  border: 1px solid var(--yellow);
   border-radius: 10px;
   background-color: transparent;
   font-family: Hermit;

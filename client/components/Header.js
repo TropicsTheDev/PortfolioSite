@@ -11,16 +11,24 @@ function Header(props) {
       <nav className={styles.nav}>
         <ul className={styles.nav_links}>
           <li className={styles.nav_link}>
-            <Link href="/">Home</Link>
+            <Link href="/">
+              <a>Home</a>
+            </Link>
           </li>
           <li className={styles.nav_link}>
-            <Link href="/projects">Projects</Link>
+            <Link href="/projects">
+              <a>Projects</a>
+            </Link>
           </li>
           <li className={styles.nav_link}>
-            <Link href="/stream">Live Stream</Link>
+            <Link href="/stream">
+              <a>Live Stream</a>
+            </Link>
           </li>
           <li className={styles.nav_link}>
-            <Link href="/contact">Contact Me</Link>
+            <Link href="/contact">
+              <a>Contact Me</a>
+            </Link>
           </li>
         </ul>
       </nav>

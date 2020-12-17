@@ -21,7 +21,7 @@
   margin: 0;
   text-align: center;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 5rem;
   color: var(--yellow);
   font-family: Hermit;
 }
@@ -36,10 +36,10 @@
 }
 .about {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   border: 2px solid  var(--purple);
   border-radius: 5px;
-  padding: 10px;
+  padding: 20px;
 }
 
 .about strong {

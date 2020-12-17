@@ -13,26 +13,36 @@ export default function LiveStream() {
       <Layout>
         <main className={styles.main}>
           <h1 className={styles.title}>
-            <Link href="https://www.dlive.tv/Tropics" passHref={true}>
+            <a href="https://www.dlive.tv/Tropics" target="_blank">
               Dlive.tv/Tropics
-            </Link>
+            </a>
           </h1>
           <div className={styles.info}>
             <figure>
-              <iframe className={styles.player}
+              <iframe
+                className={styles.player}
                 src="https://www.dlive.tv/Tropics"
                 width="100%"
                 height="500px"
               ></iframe>
             </figure>
             <p className={styles.about}>
-              Thanks for stopping by! I’m Doug, a{" "}
-              <strong>web application developer</strong> working out of Orlando
-              Florida. I work with <strong>JavaScript</strong> and frameworks
-              like <strong>React</strong> and <strong>Vue</strong>. For
-              server-side code I use <strong>NodeJS</strong>. I’m also a BJJ
-              Blue belt and happen to love playing video games!
+              My livestream is great place to interact in real-time. I mostly
+              play <strong>video games</strong> and do personal{" "}
+              <strong>coding projects</strong>. For the most part, I like to
+              keep it laid back and authentic to have a good time.
             </p>
+            <div className={styles.about}>
+              <h2>Schedule</h2>
+              <p>
+                I don't have an active streaming schedule yet. For now, I post
+                on my{" "}
+                <Link href="https://www.twitter.com/TropicsHimself">
+                  twitter
+                </Link>{" "}
+                whenever I'm about to go live.{" "}
+              </p>
+            </div>
           </div>
         </main>
       </Layout>

@@ -20,7 +20,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Tropics || Live Stream</title>
+        <title>Tropics || Contact</title>
         <link rel="icon" href="/logoIcon.png" />
       </Head>
       <Layout>
