@@ -10,6 +10,16 @@ export default function LiveStream() {
       <Head>
         <title>Tropics || Projects</title>
         <link rel="icon" href="/logoIcon.png" />
+        <meta
+          name="description"
+          content="These are some of the projects that I've been working on. I'm always learning new things, so this page should "
+        />
+        <meta
+          name="keywords"
+          content="Tropics Web Application Developer, Tropics Full Stack Developer, Tropics UX Developer, Tropics Web Developer Remote, Tropics Web Developer Orlando, Douglas Web Developer Orlando"
+        />
+        <meta name="author" content="Tropics" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Layout>
         <main className={styles.main}>

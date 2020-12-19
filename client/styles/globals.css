@@ -30,6 +30,9 @@ body {
   --yWhite: #FEFBDA;
   --pWhite: #DDD3E9;
   --yLightGrey: #CCC9A8;
+  /* action colors */
+  --oof: #FF5050;
+  --yay: #50AA49;
   /* font stuff */
   color: var(--green);
   padding: 0;

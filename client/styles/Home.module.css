@@ -39,7 +39,7 @@
   font-size: 1.8rem;
   border: 2px solid  var(--purple);
   border-radius: 5px;
-  padding: 20px;
+  padding: 2.5rem;
 }
 
 .about strong {
@@ -51,9 +51,3 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}

@@ -42,12 +42,16 @@
   font-size: 2rem;
   border: 2px solid  var(--purple);
   border-radius: 5px;
-  padding: 20px;
+  padding: 2.5rem;
 }
 
 .about strong {
   color: var(--orange);
 }
+.about p {
+  font-size: 1.8rem;
+}
+
 .about p strong {
   color: var(--green);
 }

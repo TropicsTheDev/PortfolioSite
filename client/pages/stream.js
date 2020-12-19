@@ -9,6 +9,16 @@ export default function LiveStream() {
       <Head>
         <title>Tropics || Live Stream</title>
         <link rel="icon" href="/logoIcon.png" />
+        <meta
+          name="description"
+          content="On my livestream, I like to play video games, code, and have a good time! Feel free to stop in and say hi!"
+        />
+        <meta
+          name="keywords"
+          content="Tropics Web Application Developer, Tropics Live Streamer, Tropics Web Developer Live Stream, Tropics Web Developer Remote, Tropics Web Developer Orlando"
+        />
+        <meta name="author" content="Tropics" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Layout>
         <main className={styles.main}>

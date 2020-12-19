@@ -6,12 +6,12 @@ function Footer() {
       <ul>
         <li>
           <a href="https://www.twitter.com/TropicsHimself" target="_blank">
-            Twitter <i class="ri-twitter-fill"></i>
+            Twitter <i className="ri-twitter-fill"></i>
           </a>
         </li>
         <li>
           <a href="https://github.com/TropicsTheDev" target="_blank">
-            Github <i class="ri-github-fill"></i>
+            Github <i className="ri-github-fill"></i>
           </a>
         </li>
       </ul>

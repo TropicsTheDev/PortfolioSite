@@ -31,10 +31,10 @@
 }
 .about {
   line-height: 1.5;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   border: 2px solid var(--purple);
   border-radius: 5px;
-  padding: 20px;
+  padding: 2.5rem;
 }
 
 .about strong {
@@ -42,7 +42,7 @@
 }
 
 .form {
-  width: 600px;
+  width: 60rem;
   padding: 20px;
   border: 2px solid var(--purple);
   border-radius: 5px;
@@ -60,7 +60,7 @@
 }
 
 .label {
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   color: var(--orange);
 }
@@ -68,7 +68,7 @@
 .input {
   display: block;
   background-color: var(--background);
-  padding: 5px;
+  padding: 1rem;
   border: 1px solid var(--green);
   border-radius: 7.5px;
   width: 100%;
@@ -82,6 +82,28 @@
   outline: none;
 }
 
+.spam {
+  display: none;
+}
+
+.alert {
+  padding: 2rem;
+  border: 1px solid transparent;
+  border-radius: 7.5px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  color: var(--yWhite);
+}
+
+.success {
+  background-color: var(--yay);;
+}
+
+.error {
+  background-color: var(--oof);
+}
+
 .button {
   display: block;
   margin: 0 auto;
@@ -91,7 +113,7 @@
   background-color: transparent;
   font-family: Hermit;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1.6rem;
   color: var(--yellow);
   transition: 0.5s;
 }
