@@ -1,8 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Projects.module.css";
 import Layout from "../components/Layout";
-import Link from "next/link";
-import Image from "next/image";
 
 export default function LiveStream() {
   return (
@@ -28,7 +26,7 @@ export default function LiveStream() {
             <div className={styles.about}>
               <h2>Training Control</h2>
               <figure className={styles.figure}>
-                <Image
+                <img
                   src="/images/training-control.png"
                   width={1280}
                   height={720}
@@ -73,11 +71,11 @@ export default function LiveStream() {
             <div className={styles.about}>
               <h2>Quizzes of Runterra</h2>
               <figure className={styles.figure}>
-                <Image
+                <img
                   src="/images/quizzes-of-runeterra.png"
                   width={1280}
                   height={720}
-                  alt="training control dashboard"
+                  alt="quizzes of runterra dashboard"
                 />
               </figure>
               <ul className={styles.tech}>
@@ -103,11 +101,11 @@ export default function LiveStream() {
             <div className={styles.about}>
               <h2>Find Me Amiibo</h2>
               <figure className={styles.figure}>
-                <Image
+                <img
                   src="/images/find-me-amiibo.png"
                   width={1280}
                   height={720}
-                  alt="training control dashboard"
+                  alt="find me amiibo search results"
                 />
               </figure>
               <ul className={styles.tech}>
