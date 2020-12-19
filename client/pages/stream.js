@@ -8,7 +8,7 @@ export default function LiveStream() {
     <>
       <Head>
         <title>Tropics || Live Stream</title>
-        <link rel="icon" href="/logoIcon.png" />
+        <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
           content="On my livestream, I like to play video games, code, and have a good time! Feel free to stop in and say hi!"

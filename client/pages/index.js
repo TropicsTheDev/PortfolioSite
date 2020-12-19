@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Head>
         <title>Tropics || Web Application Developer</title>
-        <link rel="icon" href="/logoIcon.png" />
+        <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
           content="Hi I'm Doug! I'm a web developer working out of Orlando Florida. I make web applications with React, Vue, and NodeJS."

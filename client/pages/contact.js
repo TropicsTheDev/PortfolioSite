@@ -44,7 +44,7 @@ export default function Contact() {
     <>
       <Head>
         <title>Tropics || Contact</title>
-        <link rel="icon" href="/logoIcon.png" />
+        <link rel="icon" href="/favicon.png" />
         <meta name="description" content="Feel free to reach out to me with an email so that we can get in touch!"/>
         <meta
           name="keywords"

@@ -7,7 +7,7 @@ export default function LiveStream() {
     <>
       <Head>
         <title>Tropics || Projects</title>
-        <link rel="icon" href="/logoIcon.png" />
+        <link rel="icon" href="/favicon.png" />
         <meta
           name="description"
           content="These are some of the projects that I've been working on. I'm always learning new things, so this page should "
