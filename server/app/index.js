@@ -20,6 +20,13 @@ app.use((err, req, res, next) => {
   });
 });
 
+// get static assets
+app.use(express.static(path.join(__dirname, "../../client/build")));
+// send everything to index.html
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "../../client/build", "index.html"));
+});
+
 // handles email
 app.post("/email", (req, res, next) => {
   const { name = "", email = "", subject = "", message = "", spam } = req.body;

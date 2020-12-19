@@ -8,9 +8,14 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "heroku-postbuild": "concurrently \"npm:install-*\"; concurrently \"npm:build-*\"; ",
+    "start": "npm start --prefix server",
     "dev": "concurrently --raw \"npm run server\" \"npm run client\"",
     "server": "cd server; nodemon server.js",
-    "client": "cd client && npm run dev"
+    "client": "cd client && npm run dev",
+    "install-client": "npm install --prefix client",
+    "build-client": "npm run build --prefix client",
+    "install-server": "npm install --prefix server"
   },
   "repository": {
     "type": "git",
@@ -24,13 +29,7 @@
   },
   "homepage": "https://github.com/TropicsTheDev/PortfolioSite#readme",
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.6"
+    "concurrently": "^5.3.0"
   },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "nodemailer": "^6.4.17",
-    "remixicon": "^2.5.0"
-  }
+  "dependencies": {}
 }
