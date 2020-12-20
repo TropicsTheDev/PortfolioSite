@@ -6,7 +6,7 @@ function Header(props) {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/images/Minilogo.png" width="100px" height="100px" />
+        <img src="/images/Minilogo.png" width="75px" height="75" />
       </div>
       <nav className={styles.nav}>
         <ul className={styles.nav_links}>
