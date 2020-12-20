@@ -61,7 +61,7 @@ export default function Contact() {
               <header>
                 <h2>
                   Feel free to send me an email for business inqueries,
-                  questions, or even advivce!
+                  questions, or even to offer advice!
                 </h2>
               </header>
               <fieldset className={styles.fields}>
