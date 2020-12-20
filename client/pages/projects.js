@@ -28,8 +28,8 @@ export default function LiveStream() {
               <figure className={styles.figure}>
                 <img
                   src="/images/training-control.png"
-                  width={1280}
-                  height={720}
+                  width={768}
+                  height={480}
                   alt="training control dashboard"
                 />
               </figure>
@@ -73,8 +73,8 @@ export default function LiveStream() {
               <figure className={styles.figure}>
                 <img
                   src="/images/quizzes-of-runeterra.png"
-                  width={1280}
-                  height={720}
+                  width={768}
+                  height={480}
                   alt="quizzes of runterra dashboard"
                 />
               </figure>
@@ -103,8 +103,8 @@ export default function LiveStream() {
               <figure className={styles.figure}>
                 <img
                   src="/images/find-me-amiibo.png"
-                  width={1280}
-                  height={720}
+                  width={768}
+                  height={480}
                   alt="find me amiibo search results"
                 />
               </figure>
