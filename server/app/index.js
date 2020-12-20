@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const mailer = require("./mail");
-const { throwError } = require("./utils/errorHandling");
+const path = require("path");
 
 const app = express();
 
