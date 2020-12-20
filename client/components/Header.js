@@ -1,12 +1,16 @@
 import styles from "../styles/Header.module.css";
 import Link from "next/link";
 
-
 function Header(props) {
   return (
     <header className={styles.header}>
       <div className={styles.logo}>
-        <img src="/images/Minilogo.png" width="75px" height="75" />
+        <img
+          src="/images/mini-logo.png"
+          width={75}
+          height={75}
+          alt="tropics logo"
+        />
       </div>
       <nav className={styles.nav}>
         <ul className={styles.nav_links}>
