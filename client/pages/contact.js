@@ -60,7 +60,7 @@ export default function Contact() {
             <form className={styles.form} onSubmit={handleSubmit}>
               <header>
                 <h2>
-                  Feel free to send me an email for business inqueries,
+                  Feel free to send me an email for business inquiries,
                   questions, or even to offer advice!
                 </h2>
               </header>
