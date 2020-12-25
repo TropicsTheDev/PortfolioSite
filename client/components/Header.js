@@ -15,7 +15,7 @@ function Header(props) {
   }, []);
 
   const [state, setState] = useState({
-    navVisible: true,
+    navVisible: false,
     isSmallScreen: false,
   });
 
