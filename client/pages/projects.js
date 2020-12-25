@@ -20,7 +20,7 @@ export default function LiveStream() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Layout>
-        <main className={styles.main}>
+        <main>
           <h1 className={styles.title}>Projects</h1>
           <div className={styles.info}>
             <div className={styles.about}>
@@ -28,8 +28,8 @@ export default function LiveStream() {
               <figure className={styles.figure}>
                 <img
                   src="/images/training-control.png"
-                  width={768}
-                  height={480}
+                  width="100%"
+                  height="6.25%"
                   alt="training control dashboard"
                 />
               </figure>
@@ -73,8 +73,8 @@ export default function LiveStream() {
               <figure className={styles.figure}>
                 <img
                   src="/images/quizzes-of-runeterra.png"
-                  width={768}
-                  height={480}
+                  width="100%"
+                  height="6.25%"
                   alt="quizzes of runterra dashboard"
                 />
               </figure>
@@ -103,8 +103,8 @@ export default function LiveStream() {
               <figure className={styles.figure}>
                 <img
                   src="/images/find-me-amiibo.png"
-                  width={768}
-                  height={480}
+                  width="100%"
+                  height="6.25%"
                   alt="find me amiibo search results"
                 />
               </figure>

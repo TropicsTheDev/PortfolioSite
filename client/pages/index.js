@@ -20,7 +20,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Layout>
-        <main className={styles.main}>
+        <main>
           <h1 className={styles.title}>Hi I'm Tropics!</h1>
           <div className={styles.info}>
             <p className={styles.about}>

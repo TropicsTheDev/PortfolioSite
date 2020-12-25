@@ -21,7 +21,7 @@ export default function LiveStream() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </Head>
       <Layout>
-        <main className={styles.main}>
+        <main>
           <h1 className={styles.title}>
             <a href="https://www.dlive.tv/Tropics" target="_blank">
               Dlive.tv/Tropics
