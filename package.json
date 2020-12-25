@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/TropicsTheDev/PortfolioSite#readme",
   "devDependencies": {
-    "concurrently": "^5.3.0"
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
   }
 }

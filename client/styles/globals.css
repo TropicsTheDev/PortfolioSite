@@ -24,6 +24,7 @@ body {
   /* primary colors */
   --yellow: #F9ED6C;
   --purple: #7851A9;
+  --overlay: rgba(121, 81, 169, 0.89);
   --background: #2E213E;
   --green: #49AA83;
   --orange: #F9966C;
@@ -63,4 +64,10 @@ a {
 main{
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media screen and (max-width: 1999px ) {
+  main {
+    padding: 2rem;
+  }
 }
