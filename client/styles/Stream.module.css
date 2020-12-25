@@ -5,7 +5,7 @@
 
 
 .title strong {
-  
+
   text-decoration: none;
 }
 
@@ -16,8 +16,10 @@
   line-height: 1.15;
   font-size: 5rem;
   color: var(--yellow);
+  word-wrap: break-word;
   font-family: Hermit;
 }
+
 
 .title,
 .description {
