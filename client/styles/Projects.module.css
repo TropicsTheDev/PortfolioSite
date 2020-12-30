@@ -80,6 +80,10 @@
   color: var(--orange);
 }
 
+.tech main {
+  margin-bottom: 0;
+}
+
 .tech h3 {
   color: var(--yWhite);
 }
