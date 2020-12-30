@@ -2,9 +2,7 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr;
-  justify-content: center;
-  align-content: center;
-  grid-template-rows: 100px 1fr 100px;
+  grid-template-rows: 10rem 1fr 10rem;
   grid-template-areas:
     "head"
     "content"
