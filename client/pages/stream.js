@@ -45,13 +45,34 @@ export default function LiveStream() {
             <div className={styles.about}>
               <h2>Schedule</h2>
               <p>
-                I don't have an active streaming schedule yet. For now, I post
-                on my{" "}
+                I try to keep a streaming schedule, but if things change I post on my{" "}
                 <Link href="https://www.twitter.com/TropicsHimself">
                   twitter
                 </Link>{" "}
-                whenever I'm about to go live.{" "}
+                whenever I'm about to go live.{" "} All times are in EST.
               </p>
+              <table className={styles.table}>
+                <thead>
+                  <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wedensday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <td>2:30PM</td>
+                  <td>9:30PM</td>
+                  <td>10:00PM</td>
+                  <td>9:30PM</td>
+                  <td>10:00PM</td>
+                  <td>3:00PM</td>
+                  <td>3:00PM</td>
+                </tbody>
+              </table>
             </div>
           </div>
         </main>
